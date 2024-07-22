@@ -121,6 +121,24 @@ img {
 }
 
 
+.What-you-will-learn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Optional: Add space between the images */
+}
+
+.What-you-will-learn > div {
+    flex: 1 1 30%; /* Adjust this value to control the size of each item */
+    box-sizing: border-box;
+}
+
+.What-you-will-learn img {
+    width: 100%;
+    height: auto;
+}
+
+
+
 
 
 
