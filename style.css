@@ -80,6 +80,8 @@ body {
 
 .Contact {
     background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 1200px) {
@@ -124,7 +126,7 @@ img {
 .What-you-will-learn {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Optional: Add space between the images */
+    gap: 30px; /* Optional: Add space between the images */
 }
 
 .What-you-will-learn > div {
