@@ -82,6 +82,7 @@ body {
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @media (max-width: 1200px) {
